@@ -3,15 +3,58 @@ body{
     overflow-x:hidden;
 }
 
+.header{
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 100%;
+    height:5em;
+    box-shadow: 3px 2px 1px #0000002b, 2px 1px 0px #00000014;
+    background-color: white; 
+}
+
 .header-logo{
-    position:fixed;
+    display:flex;
+    margin-left:2em;
+    flex-direction:row;
+    align-items:center;
+}
+
+.texto-logo{
+    margin:0px;
+    font-family:"Cookie";
+    font-size:2em;
 }
 
 .logo{
-    width:20%;
+    width:10%;
 }
+
+.contenedor-nav{
+    display: flex;
+    margin-right:5em;
+}
+
+.header-nav{
+    display:flex;
+    align-items:center;
+}
+
+.nav{
+    display:flex;   
+    flex-direction:row;
+}
+
+.item-enlace{
+    font-family:"Montserrat","Helvetica Neue";
+    color:black;
+
+}
+
+
 .contenedor{
-    background-image:url("images/ImagenPrincipal.jpg");
+    background-image:url("images/fondo.png");
     background-size:cover;
     background-repeat:no-repeat;
     display:flex;
@@ -20,11 +63,46 @@ body{
 }
 
 .contenedor-textos{
-    width:100%;
-    background-color:rgba(78,76,76,.87);
     justify-content:center;
     display:flex;
+    flex-direction:column;
+    margin-left:10%;
 }
+
+.contenedor-textos-subtitulo{
+    margin-top: 2em;
+    margin-bottom:2em;
+}
+
+.contenedor-textos-subtitulo  p{
+    font-size:1.2em;
+}
+
+.btn-store {
+    color: #777777;
+    min-width: 254px;
+    padding: 12px 20px !important;
+    border-color: #dddddd !important;
+  }
+  
+  .btn-store:focus, 
+  .btn-store:hover {
+    color: #ffffff !important;
+    background-color: #168eea;
+    border-color: #168eea !important;
+  }
+  
+  .btn-store .btn-label, 
+  .btn-store .btn-caption {
+    display: block;
+    text-align: left;
+    line-height: 1;
+  }
+  
+  .btn-store .btn-caption {
+    font-size: 24px;
+  }
+
 
 .titulo{
     font-size:70px;
@@ -37,6 +115,11 @@ body{
     font-size:20px;
     color:white;
     text-align:center;
+}
+
+.texto-central{
+    text-align:center;
+    font-family:"Montserrat";
 }
 
 .row{
