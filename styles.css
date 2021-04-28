@@ -12,6 +12,7 @@ body{
     height:5em;
     box-shadow: 3px 2px 1px #0000002b, 2px 1px 0px #00000014;
     background-color: white; 
+    z-index:1;
 }
 
 .header-logo{
@@ -44,6 +45,10 @@ body{
 .nav{
     display:flex;   
     flex-direction:row;
+}
+
+.nav li{
+    margin:1em;
 }
 
 .item-enlace{
@@ -122,11 +127,34 @@ body{
     font-family:"Montserrat";
 }
 
+.slider{
+    margin:10em;
+}
+
+.texto-card{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    box-shadow: 3px 2px 1px #0000004d;
+    padding: 10px;
+}
+
+.card-container{
+    padding:5px;
+}
 .row{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
 
+}
+
+.margin-bottom{
+    margin-bottom:10em;
 }
 
 .col-6{
@@ -137,6 +165,11 @@ body{
     max-width:500px;
 }
 
+.texto-punto{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
 
 .footer-container{
     display:flex;
