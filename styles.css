@@ -1,7 +1,11 @@
 
 body{
     overflow-x:hidden;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Spartan',Arial,sans-serif;
+}
+
+p{
+    font-family:'Spartan';
 }
 
 .header{
@@ -79,6 +83,7 @@ body{
 .contenedor-textos-subtitulo{
     margin-top: 2em;
     margin-bottom:2em;
+    font-family:'Spartan'
 }
 
 .contenedor-textos-subtitulo  p{
@@ -166,7 +171,8 @@ body{
     flex-direction:column;
     max-width:500px;
 }
-.titulo-producto{
+.titulo-producto,
+.titulo-header{
     font-family:'Krona One';
     font-size:30px;
 }
